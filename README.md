@@ -1,8 +1,6 @@
 # 🚗 Car Brand Classification (Algerian Used Cars)
 Deep learning model to classify car brands from 3,000+ images of used cars (BMW, Mercedes, etc.). Uses transfer learning with pre-trained CNNs, image preprocessing, and data augmentation. Includes Grad-CAM explainability and evaluation with accuracy and confusion matrix. Code and demo included.
 
-heck yes—here’s a polished, plug-and-play **README** outline you can drop into your repo. It’s “filled enough” to be useful on day one, with placeholders you’ll replace after you run your scripts (metrics, screenshots, Medium link, etc.).
-
 ---
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](#)
@@ -13,8 +11,8 @@ heck yes—here’s a polished, plug-and-play **README** outline you can drop in
 A deep learning pipeline to classify **car brands from images** (e.g., BMW, Mercedes).
 Includes: **data prep**, **stratified splits**, **augmentation**, **EfficientNetV2-B0 fine-tuning**, **evaluation**, and **explainability** (Grad-CAM & saliency).
 
-> 🔗 **Dataset:** *Algerian Used Cars* on Kaggle (add link)
-> 🔗 **Medium article:** *(add link)*
+> 🔗 **Dataset:** https://www.kaggle.com/datasets/boulahchichenadir/algerian-used-cars on Kaggle
+> 🔗 **Medium article:** https://medium.com/@sohamrajjain0007/teaching-ai-to-recognize-car-brands-a-deep-learning-journey-6286c907a45d
 
 ---
 
@@ -126,7 +124,7 @@ python scripts/analyze_kaggle_algerian_cars_py37.py --auto-download --out report
 # or: --data /path/to/algerian-used-cars
 ```
 
-**Requirements (sample)**
+**Requirements**
 
 ```
 tensorflow>=2.12
@@ -218,7 +216,6 @@ Embed:
 
 # 🧪 Results & Insights
 
-> Replace the placeholders with your real numbers/observations.
 
 **Summary (Test Set)**
 
@@ -305,16 +302,5 @@ Dataset licensing follows Kaggle’s terms—**do not** redistribute the raw dat
 Summarize: challenge, approach, key results, and favorite Grad-CAM visuals.
 
 ---
-
-## Tips for embedding charts & screenshots on GitHub
-
-* Put images in `reports/` or `assets/`.
-* Use relative paths; optionally control width:
-
-```markdown
-<img src="reports/sample_grid.png" width="520" alt="Sample images by brand" />
-```
-
-* Prefer PNG for plots; JPG/WebP for photos to keep repo size down.
 
 

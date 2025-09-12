@@ -268,7 +268,6 @@ python src/explain.py --model models/effnetv2b0_best.h5 --data /path/to/dataset 
 ```
 
 ---
-
 # ❓ FAQ / Troubleshooting
 
 * **GPU OOM:** lower `BATCH_SIZE`, or use `mixed_float16`.
@@ -302,7 +301,7 @@ Dataset licensing follows Kaggle’s terms—**do not** redistribute the raw dat
 
 # 📝 Blog Post
 
-**Medium:** *(paste your article link here)*
+**Medium:** https://medium.com/@sohamrajjain0007/teaching-ai-to-recognize-car-brands-a-deep-learning-journey-6286c907a45d
 Summarize: challenge, approach, key results, and favorite Grad-CAM visuals.
 
 ---

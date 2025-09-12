@@ -69,12 +69,6 @@ python scripts/analyze_kaggle_algerian_cars_py37.py --auto-download --out report
 python scripts/analyze_kaggle_algerian_cars_py37.py --data /path/to/algerian-used-cars --out reports
 ```
 
-Embed your generated assets:
-
-```markdown
-<img src="reports/class_distribution.png" width="520" />
-<img src="reports/sample_grid.png" width="520" />
-```
 
 ---
 
@@ -177,7 +171,7 @@ Computes accuracy, Top-3, macro/weighted Precision/Recall/F1, and confusion matr
 python src/eval.py --model models/effnetv2b0_best.h5 --data /path/to/dataset --out reports
 ```
 
-Embed the outputs:
+The outputs:
 
 ```markdown
 **Overall metrics**
@@ -185,10 +179,6 @@ Embed the outputs:
 - Top-3 Accuracy: **YY.YY%**
 - Macro F1: **ZZ.ZZ%**
 
-<img src="reports/confusion_matrix.png" width="520" />
-<img src="reports/confusion_matrix_normalized.png" width="520" />
-
-<img src="reports/per_class_metrics.png" width="520" />
 ```
 
 ---
@@ -201,11 +191,6 @@ Run **Grad-CAM** and **saliency** on test samples:
 python src/explain.py --model models/effnetv2b0_best.h5 --data /path/to/dataset --out reports --n 12
 ```
 
-Embed:
-
-```markdown
-<img src="reports/gradcam_examples.png" width="720" />
-```
 
 **Interpretation guide**
 
@@ -230,7 +215,6 @@ Embed:
 **Per-Class Highlights**
 
 * ✅ Best classes: *Brand A*, *Brand B* (F1 > 0.95)
-* ⚠️ Weak classes: *Brand X*, *Brand Y* (confused with …)
 
 **Key Takeaways**
 

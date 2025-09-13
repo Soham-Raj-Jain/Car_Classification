@@ -206,11 +206,11 @@ python src/explain.py --model models/effnetv2b0_best.h5 --data /path/to/dataset 
 
 | Metric               |    Value |
 | -------------------- | -------: |
-| Top-1 Accuracy       | `xx.xx%` |
-| Top-3 Accuracy       | `yy.yy%` |
-| Macro F1             | `zz.zz%` |
-| Weighted F1          | `aa.aa%` |
-| P95 Latency (server) |  `bb ms` |
+| Top-1 Accuracy       | `94.44% ` |
+| Top-3 Accuracy       | `97.53%` |
+| Macro F1             | `94.54%` |
+| Weighted F1          | `94.48%` |
+| P95 Latency (server) |  `6268.26 ms` |
 
 **Per-Class Highlights**
 

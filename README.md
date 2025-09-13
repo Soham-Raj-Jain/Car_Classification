@@ -175,9 +175,9 @@ The outputs:
 
 ```markdown
 **Overall metrics**
-- Accuracy: **XX.XX%**
-- Top-3 Accuracy: **YY.YY%**
-- Macro F1: **ZZ.ZZ%**
+- Accuracy: **94.44%**
+- Top-3 Accuracy: **97.53%**
+- Macro F1: **94.54%**
 
 ```
 
